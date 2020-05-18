@@ -12,10 +12,10 @@
 // and append it to the DOM inside the div.header-container
 
 function Header() {
-    const header = document.createElement('div')
-    const span = document.createElement('span')
-    const title = document.createElement('h1')
-    const span2 = document.createElement('span')
+    const header = document.createElement('div'),
+        span = document.createElement('span'),
+        title = document.createElement('h1'),
+        span2 = document.createElement('span');
 
     header.appendChild (span)
     header.appendChild(title)
